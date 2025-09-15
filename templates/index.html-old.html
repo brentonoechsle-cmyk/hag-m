@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Movie Picker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container py-4">
+  <h1 class="mb-2 text-center">🎬 Random Movie Picker</h1>
+  <p class="text-center text-muted mb-4">
+    Movies in CSV: <strong>{{ total_raw }}</strong> |
+    After filters: <strong>{{ count }}</strong>
+  </p>
+
+  <!-- Filters -->
+  <form method="POST" class="row g-3 mb-4">
+    <div class="col-md-4">
+      <label class="form-label">Rating</label>
+      <select class="form-select" name="rated" onchange="this.form.submit()">
+        {% for r in all_rated %}
+          <option value="{{ r }}" {% if r == selected_rated %}selected{% endif %}>{{ r }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Genre</label>
+      <select class="form-select" name="genre" onchange="this.form.submit()">
+        {% for g in all_genres %}
+          <option value="{{ g }}" {% if g == selected_genre %}selected{% endif %}>{{ g }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Runtime</label>
+      <select class="form-select" name="runtime" onchange="this.form.submit()">
+        <option value="Any" {% if selected_runtime == "Any" %}selected{% endif %}>Any</option>
+        <option value="<90" {% if selected_runtime == "<90" %}selected{% endif %}>< 90 min</option>
+        <option value="90-120" {% if selected_runtime == "90-120" %}selected{% endif %}>90–120 min</option>
+        <option value="120-150" {% if selected_runtime == "120-150" %}selected{% endif %}>120–150 min</option>
+        <option value="150+" {% if selected_runtime == "150+" %}selected{% endif %}>150+ min</option>
+      </select>
+    </div>
+
+    <div class="col-12 d-flex">
+      <button type="submit" name="random" class="btn btn-primary ms-auto">🎲 Pick Random Movie</button>
+    </div>
+  </form>
+
+  <!-- Movie Card -->
+  {% if movie %}
+    <div class="card shadow-sm">
+      <div class="row g-0">
+        {% if movie.Poster %}
+        <div class="col-md-4">
+          <img src="{{ movie.Poster }}" class="img-fluid rounded-start" alt="Poster">
+        </div>
+        {% endif %}
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 class="card-title">{{ movie.title }}</h3>
+            <p class="card-text mb-1"><strong>Year:</strong> {{ movie.release_year }}</p>
+            <p class="card-text mb-1"><strong>Rating:</strong> {{ movie.Rating }}</p>
+            <p class="card-text mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin }} min</p>
+            <p class="card-text mb-1"><strong>Genre:</strong> {{ movie.Genre }}</p>
+            <p class="card-text mb-2"><strong>Critic / Audience:</strong> {{ movie.critic_score }} / {{ movie.audience_score }}</p>
+            {% if movie.Plot %}
+              <p class="card-text">{{ movie.Plot }}</p>
+            {% endif %}
+            {% if movie.url %}
+              <a class="btn btn-outline-secondary btn-sm" href="{{ movie.url }}" target="_blank">Rotten Tomatoes</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</div>
+</body>
+</html>
