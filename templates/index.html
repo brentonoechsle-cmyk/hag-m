@@ -12,11 +12,11 @@
 </head>
 <body>
 <div class="container py-4">
-<div class="d-flex justify-content-center align-items-center mb-4 flex-wrap" style="max-width: 100%;">
+<div class="d-flex justify-content-center align-items-center mb-4 flex-row flex-nowrap" style="max-width: 100%;">
   <img src="{{ url_for('static', filename='hag_m_granny.png') }}" 
        alt="Granny Popcorn"
        class="img-fluid me-3"
-       style="max-height: 18vh; width: auto;">
+       style="max-height: 18vh; width: auto; flex-shrink: 0;">
   <div class="text-start">
     <div>
       <img src="{{ url_for('static', filename='hag_m_title.png') }}" 
@@ -32,6 +32,7 @@
     </div>
   </div>
 </div>
+
 
 
 
