@@ -92,11 +92,11 @@
         <div class="col-md-8">
           <div class="card-body">
             <h3 class="card-title">{{ movie.title }}</h3>
-            <p class="card-text mb-1"><strong>Year:</strong> {{ movie.release_year }}</p>
+            <p class="card-text mb-1"><strong>Year:</strong> {{ movie.release_year|int }}</p>
             <p class="card-text mb-1"><strong>Rating:</strong> {{ movie.Rating }}</p>
-            <p class="card-text mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin }} min</p>
+            <p class="card-text mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin|int }} min</p>
             <p class="card-text mb-1"><strong>Genre:</strong> {{ movie.Genre }}</p>
-            <p class="card-text mb-2"><strong>Critic / Audience:</strong> {{ movie.critic_score }} / {{ movie.audience_score }}</p>
+            <p class="card-text mb-2"><strong>Critic / Audience:</strong> {{ movie.critic_score|int }} / {{ movie.audience_score|int }}</p>
             {% if movie.Plot %}
               <p class="card-text">{{ movie.Plot }}</p>
             {% endif %}
