@@ -6,6 +6,13 @@ from urllib.parse import quote_plus
 
 app = Flask(__name__)
 
+
+@app.after_request
+def add_header(response):
+    if request.path.startswith("/static/"):
+        response.headers["Cache-Control"] = "public, max-age=31536000"
+    return response
+
 # --- Settings ---
 TMDB_API_KEY = "96872e54c86124eeb781f961d12e1aaf"
 INPUT_CSV = Path("movies_min85.csv")
