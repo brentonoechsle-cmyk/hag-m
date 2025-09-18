@@ -5,35 +5,8 @@
   <title>HAGM — Here’s A Good Movie</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<script>
-document.getElementById("randomMovieBtn").addEventListener("click", function(event) {
-  event.preventDefault();
-
-  const form = document.getElementById("filterForm");
-  const formData = new FormData(form);
-
-  fetch("/random_movie", {
-    method: "POST",
-    body: formData
-  })
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById("movieCardContainer").innerHTML = html;
-  })
-  .catch(err => console.error("Error fetching movie:", err));
-});
-</script>
-
-
-
-
   <style>
-
- body {
-    background-color: #fbfafb !important;
-  }
-
+    body { background-color: #fbfafb !important; }
     .movie-poster { max-height: 500px; width: auto; }
     @media (min-width: 768px) { .movie-poster { max-height: 300px; } }
     @media (min-width: 1200px) { .movie-poster { max-height: 400px; } }
@@ -43,7 +16,7 @@ document.getElementById("randomMovieBtn").addEventListener("click", function(eve
 <div class="container py-4">
 
   <!-- Header -->
-  <div class="pt-5">
+ <div class="pt-5">
     <div class="d-flex justify-content-center align-items-center mb-4 flex-row flex-nowrap" style="max-width: 100%;">
       <img src="{{ url_for('static', filename='hag_m_granny.png') }}" 
            alt="Granny Popcorn"
@@ -51,23 +24,25 @@ document.getElementById("randomMovieBtn").addEventListener("click", function(eve
            style="max-height: 18vh; width: auto; flex-shrink: 0;">
       <div class="text-start">
         <div>
-          <img src="{{ url_for('static', filename='hagm_title.png') }}" 
+          <img src="{{ url_for('static', filename='hag-m.png') }}" 
                alt="HAG'M Title"
                class="img-fluid mb-2 d-block"
-               style="max-height: 12.5vh; width: auto; margin: 0 auto;">
+               style="max-height: 15vh; width: auto; margin: 0 auto;">
         </div>
+<!--
         <div>
           <img src="{{ url_for('static', filename='hag_m_subtitle.png') }}" 
                alt="Here’s A Good Movie"
                class="img-fluid d-block"
                style="max-height: 3vh; width: auto; margin: -20px auto 0;">
         </div>
+-->
       </div>
     </div>
   </div>
 
   <!-- Filters -->
-  <form method="POST" class="mb-4">
+  <form method="POST" class="mb-4" id="filterForm">
     <div class="row g-3 align-items-end">
       <div class="col-12 col-md-4">
         <label for="rated" class="form-label">Rating</label>
@@ -104,49 +79,45 @@ document.getElementById("randomMovieBtn").addEventListener("click", function(eve
   </form>
 
   <!-- Stats -->
-  <p class="text-muted text-center">Total movies: <strong>{{ total_raw }}</strong> | Matching: <strong>{{ count }}</strong></p>
+  <p class="text-muted text-center">
+    Total movies: <strong>{{ total_raw }}</strong> |
+    Matching: <strong id="matchCountSpan">{{ count }}</strong>
+  </p>
 
-  <!-- Movie card -->
-  {% if movie %}
-  <div class="card shadow-sm mb-5">
-    <div class="row g-0 align-items-start">
-      {% if movie.Poster %}
-      <div class="col-12 col-md-4 text-center p-3 d-md-block d-none">
-        <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
-      </div>
-      <div class="col-12 d-md-none text-center p-3">
-        <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
-      </div>
-      {% endif %}
-      <div class="col-12 col-md-8">
-        <div class="card-body">
-          <h5 class="card-title mb-1">{{ movie.Title }}</h5>
-          {% if movie.Year %}<p class="text-muted mb-2">({{ movie.Year|int }})</p>{% endif %}
-          {% if movie.Directors %}<p class="mb-1"><strong>Director:</strong> {{ movie.Directors }}</p>{% endif %}
-          {% if movie.Genres %}<p class="mb-1"><strong>Genre:</strong> {{ movie.Genres }}</p>{% endif %}
-          {% if movie.ContentRating %}<p class="mb-1"><strong>Rating:</strong> {{ movie.ContentRating }}</p>{% endif %}
-          {% if movie.RuntimeMin %}<p class="mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin }} min</p>{% endif %}
-          <div class="mb-2">
-            {% if movie.CriticScore is not none %}
-              <span class="badge bg-success me-1">Critics: {{ movie.CriticScore|round(0) }}%</span>
-            {% endif %}
-            {% if movie.AudienceScore is not none %}
-              <span class="badge bg-primary">Audience: {{ movie.AudienceScore|round(0) }}%</span>
-            {% endif %}
-          </div>
-          {% if movie.Plot %}<p class="card-text">{{ movie.Plot }}</p>{% endif %}
-        </div>
-      </div>
-    </div>
+  <!-- Movie card container -->
+  <div id="movieCardContainer">
+    {% if movie %}
+      {% include "_movie_card.html" %}
+    {% endif %}
   </div>
-  {% endif %}
 
   <!-- Footer -->
   <footer class="text-center py-3 mt-5">
-    <small>
-      Powered by <a href="https://www.themoviedb.org/" target="_blank">TMDb</a>
-    </small>
+    <small>Powered by <a href="https://www.themoviedb.org/" target="_blank">TMDb</a></small>
   </footer>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.querySelector("button[name='random']");
+  const form = document.getElementById("filterForm");
+  const container = document.getElementById("movieCardContainer");
+
+  if (btn && form) {
+    btn.addEventListener("click", function (event) {
+      event.preventDefault();
+      const formData = new FormData(form);
+
+      fetch("/random_movie", { method: "POST", body: formData })
+        .then(res => res.json())
+        .then(data => {
+          container.innerHTML = data.html;
+          document.querySelector("#matchCountSpan").textContent = data.count;
+        })
+        .catch(err => console.error("Error:", err));
+    });
+  }
+});
+</script>
 </body>
 </html>

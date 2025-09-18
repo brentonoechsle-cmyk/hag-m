@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, render_template_string
+from flask import Flask, render_template, request, jsonify, render_template_string, url_for
 import pandas as pd
 import requests, json, time, re
 from pathlib import Path
@@ -14,8 +14,9 @@ def add_header(response):
 
 # ----- Settings -----
 TMDB_API_KEY = "96872e54c86124eeb781f961d12e1aaf"
-INPUT_CSV = Path("rotten_tomatoes_min85.csv")   # <-- your 1600-movie CSV
-CACHE_PATH = Path("tmdb_cache.json")            # poster/plot cache
+OMDB_API_KEY = "bebf6ae6"   # replace with your OMDb key
+INPUT_CSV = Path("rotten_tomatoes_min85.csv")
+CACHE_PATH = Path("movie_cache.json")
 
 # ----- JSON cache helpers -----
 def load_cache():
@@ -31,27 +32,9 @@ def save_cache(cache: dict):
 
 cache = load_cache()
 
-# ----- TMDb helpers -----
-def tmdb_search(title, year=None):
-    params = {"api_key": TMDB_API_KEY, "query": title}
-    if pd.notna(year):
-        try:
-            params["year"] = int(year)
-        except Exception:
-            pass
-    r = requests.get("https://api.themoviedb.org/3/search/movie", params=params, timeout=10)
-    data = r.json()
-    if data.get("results"):
-        return data["results"][0]["id"]
-    return None
-
-def tmdb_details(movie_id):
-    params = {"api_key": TMDB_API_KEY}
-    r = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}", params=params, timeout=10)
-    return r.json()
-
-def query_tmdb_minimal(title, year=None):
-    """Get poster + plot from TMDb with caching."""
+# ----- Poster/plot helpers -----
+def get_poster_and_plot(title, year=None):
+    """Try TMDb → OMDb → placeholder fallback, with caching."""
     ykey = ""
     if year is not None and pd.notna(year):
         try:
@@ -64,19 +47,43 @@ def query_tmdb_minimal(title, year=None):
         return cache[key]
 
     data = {"Poster": None, "Plot": ""}
+
+    # --- 1. TMDb ---
     try:
-        movie_id = tmdb_search(title, ykey if ykey else None)
-        if movie_id:
-            details = tmdb_details(movie_id)
-            poster = (
-                f"https://image.tmdb.org/t/p/w500{details['poster_path']}"
-                if details.get("poster_path")
-                else None
-            )
-            plot = details.get("overview", "") or ""
-            data = {"Poster": poster, "Plot": plot}
+        params = {"api_key": TMDB_API_KEY, "query": title}
+        if ykey:
+            params["year"] = int(ykey)
+        r = requests.get("https://api.themoviedb.org/3/search/movie", params=params, timeout=10)
+        res = r.json()
+        if res.get("results"):
+            movie = res["results"][0]
+            if movie.get("poster_path"):
+                data["Poster"] = f"https://image.tmdb.org/t/p/w500{movie['poster_path']}"
+            # details for plot
+            mid = movie["id"]
+            det = requests.get(
+                f"https://api.themoviedb.org/3/movie/{mid}",
+                params={"api_key": TMDB_API_KEY}, timeout=10
+            ).json()
+            data["Plot"] = det.get("overview") or ""
     except Exception as e:
-        data["_error"] = str(e)
+        data["_tmdb_error"] = str(e)
+
+    # --- 2. OMDb fallback ---
+    if not data["Poster"] or data["Poster"] in ["N/A", ""]:
+        try:
+            omdb_url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={title}"
+            if ykey:
+                omdb_url += f"&y={ykey}"
+            r = requests.get(omdb_url, timeout=10).json()
+            if r.get("Poster") and r["Poster"] != "N/A":
+                data["Poster"] = r["Poster"]
+            if not data["Plot"] and r.get("Plot") and r["Plot"] != "N/A":
+                data["Plot"] = r["Plot"]
+        except Exception as e:
+            data["_omdb_error"] = str(e)
+
+ 
 
     cache[key] = data
     save_cache(cache)
@@ -185,7 +192,7 @@ def index():
     movie = None
     if request.method == "POST" and request.form.get("random") == "1" and count_after_ui > 0:
         row = filtered.sample(1).iloc[0]
-        enrich = query_tmdb_minimal(row["Title"], row["Year"])
+        enrich = get_poster_and_plot(row["Title"], row["Year"])
         movie = {
             "Title": row["Title"],
             "Year": int(row["Year"]) if pd.notna(row["Year"]) else "",
@@ -241,7 +248,7 @@ def random_movie():
         return jsonify({"html": "<p>No movies match your filters.</p>", "count": 0, "total": total_raw})
 
     row = filtered.sample(1).iloc[0]
-    enrich = query_tmdb_minimal(row["Title"], row["Year"])
+    enrich = get_poster_and_plot(row["Title"], row["Year"])
     movie = {
         "Title": row["Title"],
         "Year": int(row["Year"]) if pd.notna(row["Year"]) else "",
