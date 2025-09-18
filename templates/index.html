@@ -10,6 +10,17 @@
     .movie-poster { max-height: 500px; width: auto; }
     @media (min-width: 768px) { .movie-poster { max-height: 300px; } }
     @media (min-width: 1200px) { .movie-poster { max-height: 400px; } }
+
+#poster {
+  width: 100%;
+  max-width: 300px;
+  min-height: 450px; /* matches your poster aspect ratio */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
   </style>
 </head>
 <body>
