@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request, jsonify, render_template_string
+from flask import Flask, render_template, request
 import pandas as pd
-import requests, json, time, re
+import requests, json, time
 from pathlib import Path
+import re
 
 app = Flask(__name__)
 
@@ -52,12 +53,13 @@ def tmdb_details(movie_id):
 
 def query_tmdb_minimal(title, year=None):
     """Get poster + plot from TMDb with caching."""
-    ykey = ""
-    if year is not None and pd.notna(year):
+    if year is None or pd.isna(year):
+        ykey = ""
+    else:
         try:
             ykey = str(int(float(year)))
         except Exception:
-            pass
+            ykey = ""
 
     key = f"{title}|||{ykey}"
     if key in cache:
@@ -147,7 +149,7 @@ def load_movies():
     _TOTAL_RAW = len(df)
     return _MOVIES_DF, _TOTAL_RAW
 
-# ----- Main route -----
+# ----- Route -----
 @app.route("/", methods=["GET", "POST"])
 def index():
     df, total_raw = load_movies()
@@ -211,55 +213,9 @@ def index():
         movie=movie
     )
 
-# ----- AJAX route -----
-@app.route("/random_movie", methods=["POST"])
-def random_movie():
-    df, total_raw = load_movies()
 
-    selected_rated = request.form.get("rated", "Any")
-    selected_genre = request.form.get("genre", "Any")
-    selected_runtime = request.form.get("runtime", "Any")
 
-    filtered = df.copy()
-    if selected_rated != "Any":
-        filtered = filtered[filtered["ContentRating"].fillna("").str.lower() == selected_rated.lower()]
-    if selected_genre != "Any":
-        filtered = filtered[filtered["Genres"].fillna("").str.contains(fr"\b{re.escape(selected_genre)}\b", case=False, regex=True)]
-    if selected_runtime != "Any":
-        rt = pd.to_numeric(filtered["RuntimeMin"], errors="coerce")
-        if selected_runtime == "<90":
-            filtered = filtered[rt.fillna(99999) < 90]
-        elif selected_runtime == "90-120":
-            filtered = filtered[(rt.fillna(-1) >= 90) & (rt <= 120)]
-        elif selected_runtime == "120-150":
-            filtered = filtered[(rt.fillna(-1) >= 120) & (rt <= 150)]
-        elif selected_runtime == "150+":
-            filtered = filtered[rt.fillna(-1) >= 150]
 
-    count_after_ui = len(filtered)
-    if count_after_ui == 0:
-        return jsonify({"html": "<p>No movies match your filters.</p>", "count": 0, "total": total_raw})
-
-    row = filtered.sample(1).iloc[0]
-    enrich = query_tmdb_minimal(row["Title"], row["Year"])
-    movie = {
-        "Title": row["Title"],
-        "Year": int(row["Year"]) if pd.notna(row["Year"]) else "",
-        "ContentRating": row["ContentRating"],
-        "Genres": row["Genres"],
-        "Directors": row["Directors"],
-        "RuntimeMin": int(row["RuntimeMin"]) if pd.notna(row["RuntimeMin"]) else None,
-        "CriticScore": float(row["CriticScore"]) if pd.notna(row["CriticScore"]) else None,
-        "AudienceScore": float(row["AudienceScore"]) if pd.notna(row["AudienceScore"]) else None,
-        "Poster": enrich.get("Poster"),
-        "Plot": enrich.get("Plot", "")
-    }
-
-    html = render_template_string(
-        """{% include '_movie_card.html' %}""",
-        movie=movie
-    )
-    return jsonify({"html": html, "count": count_after_ui, "total": total_raw})
 
 if __name__ == "__main__":
     app.run(debug=True)
