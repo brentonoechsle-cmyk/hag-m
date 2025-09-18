@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, render_template_string, url_for
 import pandas as pd
-import requests, json, time, re
+import requests, json, time, re, random
 from pathlib import Path
 
 app = Flask(__name__)
@@ -14,9 +14,11 @@ def add_header(response):
 
 # ----- Settings -----
 TMDB_API_KEY = "96872e54c86124eeb781f961d12e1aaf"
-OMDB_API_KEY = "bebf6ae6"   # replace with your OMDb key
+OMDB_API_KEY = "bebf6ae6"
 INPUT_CSV = Path("rotten_tomatoes_min85.csv")
 CACHE_PATH = Path("movie_cache.json")
+POSTER_DIR = Path("static/posters")
+BAG_PATH = Path("shuffle_bag.json")
 
 # ----- JSON cache helpers -----
 def load_cache():
@@ -32,9 +34,56 @@ def save_cache(cache: dict):
 
 cache = load_cache()
 
+# ----- Shuffle bag helpers -----
+def load_bag(movie_ids):
+    """Load the shuffle bag, refill if empty."""
+    if BAG_PATH.exists():
+        try:
+            bag = json.loads(BAG_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            bag = []
+    else:
+        bag = []
+
+    if not bag:  # refill with shuffled IDs
+        bag = list(movie_ids)
+        random.shuffle(bag)
+        BAG_PATH.write_text(json.dumps(bag), encoding="utf-8")
+    return bag
+
+def save_bag(bag):
+    BAG_PATH.write_text(json.dumps(bag), encoding="utf-8")
+
+def draw_from_bag(filtered_df):
+    """Draw one random row from filtered_df without repeats until exhausted."""
+    ids = list(filtered_df.index)
+    bag = load_bag(ids)
+
+    # ensure bag only contains valid ids
+    bag = [i for i in bag if i in ids]
+    if not bag:
+        bag = list(ids)
+        random.shuffle(bag)
+
+    idx = bag.pop(0)
+    save_bag(bag)
+    return filtered_df.loc[idx]
+
+# ----- Safe filename for posters -----
+def safe_filename(title, year):
+    clean_title = re.sub(r'[^a-zA-Z0-9]+', '_', str(title)).strip("_").lower()
+    yr = ""
+    if year is not None and pd.notna(year):
+        try:
+            yr = str(int(float(year)))
+        except Exception:
+            yr = "na"
+    else:
+        yr = "na"
+    return f"{clean_title}_{yr}.jpg"
+
 # ----- Poster/plot helpers -----
 def get_poster_and_plot(title, year=None):
-    """Try TMDb → OMDb → placeholder fallback, with caching."""
     ykey = ""
     if year is not None and pd.notna(year):
         try:
@@ -47,8 +96,14 @@ def get_poster_and_plot(title, year=None):
         return cache[key]
 
     data = {"Poster": None, "Plot": ""}
+    fname = safe_filename(title, ykey)
+    local_path = POSTER_DIR / fname
+    if local_path.exists():
+        data["Poster"] = f"/static/posters/{fname}"
+        cache[key] = data
+        save_cache(cache)
+        return data
 
-    # --- 1. TMDb ---
     try:
         params = {"api_key": TMDB_API_KEY, "query": title}
         if ykey:
@@ -59,18 +114,16 @@ def get_poster_and_plot(title, year=None):
             movie = res["results"][0]
             if movie.get("poster_path"):
                 data["Poster"] = f"https://image.tmdb.org/t/p/w500{movie['poster_path']}"
-            # details for plot
             mid = movie["id"]
             det = requests.get(
                 f"https://api.themoviedb.org/3/movie/{mid}",
                 params={"api_key": TMDB_API_KEY}, timeout=10
             ).json()
             data["Plot"] = det.get("overview") or ""
-    except Exception as e:
-        data["_tmdb_error"] = str(e)
+    except:
+        pass
 
-    # --- 2. OMDb fallback ---
-    if not data["Poster"] or data["Poster"] in ["N/A", ""]:
+    if not data["Poster"]:
         try:
             omdb_url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={title}"
             if ykey:
@@ -80,14 +133,15 @@ def get_poster_and_plot(title, year=None):
                 data["Poster"] = r["Poster"]
             if not data["Plot"] and r.get("Plot") and r["Plot"] != "N/A":
                 data["Plot"] = r["Plot"]
-        except Exception as e:
-            data["_omdb_error"] = str(e)
+        except:
+            pass
 
- 
+    if not data["Poster"]:
+        data["Poster"] = "/static/placeholder.png"
 
     cache[key] = data
     save_cache(cache)
-    time.sleep(0.18)  # throttle
+    time.sleep(0.18)
     return data
 
 # ----- CSV normalization -----
@@ -118,7 +172,7 @@ def extract_year(date_val):
     if m:
         try:
             return int(m.group(1))
-        except Exception:
+        except:
             return pd.NA
     return pd.NA
 
@@ -191,7 +245,7 @@ def index():
 
     movie = None
     if request.method == "POST" and request.form.get("random") == "1" and count_after_ui > 0:
-        row = filtered.sample(1).iloc[0]
+        row = draw_from_bag(filtered)   # <-- use shuffle bag
         enrich = get_poster_and_plot(row["Title"], row["Year"])
         movie = {
             "Title": row["Title"],
@@ -247,7 +301,7 @@ def random_movie():
     if count_after_ui == 0:
         return jsonify({"html": "<p>No movies match your filters.</p>", "count": 0, "total": total_raw})
 
-    row = filtered.sample(1).iloc[0]
+    row = draw_from_bag(filtered)   # <-- use shuffle bag
     enrich = get_poster_and_plot(row["Title"], row["Year"])
     movie = {
         "Title": row["Title"],
