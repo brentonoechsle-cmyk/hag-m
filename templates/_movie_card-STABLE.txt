@@ -1,0 +1,31 @@
+<div class="card shadow-sm mb-5">
+  <div class="row g-0 align-items-start">
+    {% if movie.Poster %}
+    <div class="col-12 col-md-4 text-center p-3 d-md-block d-none">
+      <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
+    </div>
+    <div class="col-12 d-md-none text-center p-3">
+      <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
+    </div>
+    {% endif %}
+    <div class="col-12 col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mb-1">{{ movie.Title }}</h5>
+        {% if movie.Year %}<p class="text-muted mb-2">({{ movie.Year }})</p>{% endif %}
+        {% if movie.Directors %}<p class="mb-1"><strong>Director:</strong> {{ movie.Directors }}</p>{% endif %}
+        {% if movie.Genres %}<p class="mb-1"><strong>Genre:</strong> {{ movie.Genres }}</p>{% endif %}
+        {% if movie.ContentRating %}<p class="mb-1"><strong>Rating:</strong> {{ movie.ContentRating }}</p>{% endif %}
+        {% if movie.RuntimeMin %}<p class="mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin }} min</p>{% endif %}
+        <div class="mb-2">
+          {% if movie.CriticScore is not none %}
+            <span class="badge bg-success me-1">Critics: {{ movie.CriticScore|round(0) }}%</span>
+          {% endif %}
+          {% if movie.AudienceScore is not none %}
+            <span class="badge bg-primary">Audience: {{ movie.AudienceScore|round(0) }}%</span>
+          {% endif %}
+        </div>
+        {% if movie.Plot %}<p class="card-text">{{ movie.Plot }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>

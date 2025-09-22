@@ -1,12 +1,12 @@
 <div class="card shadow-sm mb-5">
   <div class="row g-0 align-items-start">
     {% if movie.Poster %}
-    <div class="col-12 col-md-4 text-center p-3 d-md-block d-none">
-      <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
-    </div>
-    <div class="col-12 d-md-none text-center p-3">
-      <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
-    </div>
+      <div class="col-12 col-md-4 text-center p-3 d-md-block d-none">
+        <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
+      </div>
+      <div class="col-12 d-md-none text-center p-3">
+        <img src="{{ movie.Poster }}" alt="{{ movie.Title }} poster" class="img-fluid movie-poster rounded">
+      </div>
     {% endif %}
     <div class="col-12 col-md-8">
       <div class="card-body">
@@ -16,6 +16,7 @@
         {% if movie.Genres %}<p class="mb-1"><strong>Genre:</strong> {{ movie.Genres }}</p>{% endif %}
         {% if movie.ContentRating %}<p class="mb-1"><strong>Rating:</strong> {{ movie.ContentRating }}</p>{% endif %}
         {% if movie.RuntimeMin %}<p class="mb-1"><strong>Runtime:</strong> {{ movie.RuntimeMin }} min</p>{% endif %}
+
         <div class="mb-2">
           {% if movie.CriticScore is not none %}
             <span class="badge bg-success me-1">Critics: {{ movie.CriticScore|round(0) }}%</span>
@@ -24,7 +25,30 @@
             <span class="badge bg-primary">Audience: {{ movie.AudienceScore|round(0) }}%</span>
           {% endif %}
         </div>
-        {% if movie.Plot %}<p class="card-text">{{ movie.Plot }}</p>{% endif %}
+
+        {% if movie.Plot %}
+          <p class="card-text">{{ movie.Plot }}</p>
+        {% endif %}
+
+        {% if movie.Streaming and movie.Streaming|length > 0 %}
+          <div class="streaming-section d-flex flex-wrap">
+            {% for p in movie.Streaming %}
+              <div class="me-3 mb-2 text-center" style="min-width:64px;">
+                {% if p.logo %}
+                  <a href="{{ p.url or '#' }}" target="_blank" title="{{ p.name }}">
+                    <img src="{{ p.logo }}" alt="{{ p.name }}" class="streaming-logo">
+                  </a>
+                {% elif p.url %}
+                  <a href="{{ p.url }}" target="_blank" class="badge bg-secondary text-decoration-none">{{ p.name }}</a>
+                {% else %}
+                  <span class="badge bg-light text-dark">{{ p.name }}</span>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="text-muted mt-3"><em>Not currently streaming</em></p>
+        {% endif %}
       </div>
     </div>
   </div>

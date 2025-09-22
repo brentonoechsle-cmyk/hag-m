@@ -6454,5 +6454,1901 @@
   "The Fighter|||1979": {
     "Poster": "https://image.tmdb.org/t/p/w500/hKnpDV3EkOoAPlMddTgSwQLVFU5.jpg",
     "Plot": "The Crane Fighter is set just after the majority of the Shaolin monks have been outlawed and killed by the, I think, Ching Dynasty. A few have escaped, and live secretly among the common people. One old guy has a daughter that he has forbidden to learn kung fu, but she does so anyway, by watching some other monks in a nearby temple."
+  },
+  "Wild Style|||1982": {
+    "Poster": "/static/posters/wild_style_1982.jpg",
+    "Plot": ""
+  },
+  "the dresser|||1983": {
+    "Poster": "https://image.tmdb.org/t/p/w500/kPIeNAwdN2Ds77Bf7bfZAmDrzoh.jpg",
+    "Plot": "In a touring Shakespearean theater group, a backstage hand - the dresser, is devoted to the brilliant but tyrannical head of the company. He struggles to support the deteriorating star as the company struggles to carry on during the London blitz. The pathos of his backstage efforts rival the pathos in the story of Lear and the Fool that is being presented on-stage, as the situation comes to a crisis.",
+    "Streaming": [
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/42122-the-dresser/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/42122-the-dresser/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/42122-the-dresser/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/42122-the-dresser/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/42122-the-dresser/watch?locale=US"
+      }
+    ]
+  },
+  "hoop dreams|||1994": {
+    "Poster": "https://image.tmdb.org/t/p/w500/gLzHl2XBtVwycl8DxdOXRHPm8G3.jpg",
+    "Plot": "Every school day, African-American teenagers William Gates and Arthur Agee travel 90 minutes each way from inner-city Chicago to St. Joseph High School in Westchester, Illinois, a predominately white suburban school well-known for the excellence of its basketball program. Gates and Agee dream of NBA stardom, and with the support of their close-knit families, they battle the social and physical obstacles that stand in their way. This acclaimed documentary was shot over the course of five years.",
+    "Streaming": [
+      {
+        "name": "fuboTV",
+        "logo": "https://image.tmdb.org/t/p/w45/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "HBO Max",
+        "logo": "https://image.tmdb.org/t/p/w45/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "HBO Max Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Shout! Factory Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/ivRp15loTWoVy3eEHALoYEyXI8J.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/14275-hoop-dreams/watch?locale=US"
+      }
+    ]
+  },
+  "how to change the world|||2015": {
+    "Poster": "https://image.tmdb.org/t/p/w500/994hnuZUbkAkpCZMaqasMw2cWvj.jpg",
+    "Plot": "In 1971, a group of friends sail into a nuclear test zone, and their protest captures the world's imagination. Using never before seen archive that brings their extraordinary world to life, How To Change The World is the story of the pioneers who founded Greenpeace and defined the modern green movement.",
+    "Streaming": [
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/319073-how-to-change-the-world/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/319073-how-to-change-the-world/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/319073-how-to-change-the-world/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/319073-how-to-change-the-world/watch?locale=US"
+      }
+    ]
+  },
+  "blackfish|||2013": {
+    "Poster": "https://image.tmdb.org/t/p/w500/kCk4mDFE96Mn1AYfEcbxkIiw7ND.jpg",
+    "Plot": "Notorious killer whale Tilikum is responsible for the deaths of three individuals, including a top killer whale trainer. Blackfish shows the sometimes devastating consequences of keeping such intelligent and sentient creatures in captivity.",
+    "Streaming": [
+      {
+        "name": "fuboTV",
+        "logo": "https://image.tmdb.org/t/p/w45/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Dox Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/3P8zPlNET0zhg3UwJAj1I3MaPP8.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Magnolia Selects Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/v2DlnoBWsXnWJQKKez6C6rjqzgk.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      },
+      {
+        "name": "FlixFling",
+        "logo": "https://image.tmdb.org/t/p/w45/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
+        "url": "https://www.themoviedb.org/movie/158999-blackfish/watch?locale=US"
+      }
+    ]
+  },
+  "smiles of a summer night|||1955": {
+    "Poster": "https://image.tmdb.org/t/p/w500/wKeV8lKz8k9DDBCw6MJ9MkhvhqF.jpg",
+    "Plot": "Early in the 20th century, middle-aged lawyer Fredrik Egerman and his young wife, Anne, have still not consummated their marriage, while Fredrik's son finds himself increasingly attracted to his new stepmother. To make matters worse, Fredrik's old flame Desiree makes a public bet that she can seduce him at a romantic weekend retreat where four couples convene, swapping partners and pairing off in unexpected ways.",
+    "Streaming": [
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/11700-sommarnattens-leende/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/11700-sommarnattens-leende/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/11700-sommarnattens-leende/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/11700-sommarnattens-leende/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/11700-sommarnattens-leende/watch?locale=US"
+      }
+    ]
+  },
+  "the shootist|||1976": {
+    "Poster": "https://image.tmdb.org/t/p/w500/gb1oj3xUJUeH9oyZNH6WKCo9lM.jpg",
+    "Plot": "Afflicted with a terminal illness John Bernard Books, the last of the legendary gunfighters, quietly returns to Carson City for medical attention from his old friend Dr. Hostetler. Aware that his days are numbered, the troubled man seeks solace and peace in a boarding house run by a widow and her son. However, it is not Books' fate to die in peace, as he becomes embroiled in one last valiant battle.",
+    "Streaming": [
+      {
+        "name": "fuboTV",
+        "logo": "https://image.tmdb.org/t/p/w45/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "MGM+ Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "MGM Plus Roku Premium Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/lD7HKUmXDvUya58DceiTA809Zbf.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "MGM Plus",
+        "logo": "https://image.tmdb.org/t/p/w45/ctiRpS16dlaTXQBSsiFncMrgWmh.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "Philo",
+        "logo": "https://image.tmdb.org/t/p/w45/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/12584-the-shootist/watch?locale=US"
+      }
+    ]
+  },
+  "citizenfour|||2014": {
+    "Poster": "https://image.tmdb.org/t/p/w500/nOVhX69EAxtSKEEnr5UcSd5UVci.jpg",
+    "Plot": "In June 2013, Laura Poitras and reporter Glenn Greenwald flew to Hong Kong for the first of many meetings with Edward Snowden. She brought her camera with her.",
+    "Streaming": [
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/293310-citizenfour/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/293310-citizenfour/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/293310-citizenfour/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/293310-citizenfour/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/293310-citizenfour/watch?locale=US"
+      }
+    ]
+  },
+  "the maltese falcon|||1941": {
+    "Poster": "https://image.tmdb.org/t/p/w500/bf4o6Uzw5wqLjdKwRuiDrN1xyvl.jpg",
+    "Plot": "A private detective takes on a case that involves him with three eccentric criminals, a beautiful liar, and their quest for a priceless statuette.",
+    "Streaming": [
+      {
+        "name": "Amazon Video",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      },
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      },
+      {
+        "name": "Spectrum On Demand",
+        "logo": "https://image.tmdb.org/t/p/w45/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
+        "url": "https://www.themoviedb.org/movie/963-the-maltese-falcon/watch?locale=US"
+      }
+    ]
+  },
+  "fox and his friends|||1975": {
+    "Poster": "https://image.tmdb.org/t/p/w500/uYHNK7VycMOcD9Jv5qgjIdvDwgG.jpg",
+    "Plot": "Fox, a former circus performer, wins the lottery of DM 500,000 and can now have the life and things that he has always wanted.  He enters an abusive relationship with wealthy industrialist Eugen in an attempt to climb the social ladder. His desperation for love and affection soon spirals into tragedy.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/42254-faustrecht-der-freiheit/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/42254-faustrecht-der-freiheit/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/42254-faustrecht-der-freiheit/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/42254-faustrecht-der-freiheit/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/42254-faustrecht-der-freiheit/watch?locale=US"
+      }
+    ]
+  },
+  "the disaster artist|||2017": {
+    "Poster": "https://image.tmdb.org/t/p/w500/2HuLGiyH0TPYxnCvYHAxc8K738o.jpg",
+    "Plot": "An aspiring actor in Hollywood meets an enigmatic stranger by the name of Tommy Wiseau, the meeting leads the actor down a path nobody could have predicted; creating the worst movie ever made.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/zXCdY4pczONheFCU9GkrMbGI1o5.jpg",
+        "url": "https://www.themoviedb.org/movie/371638-the-disaster-artist/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/371638-the-disaster-artist/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/371638-the-disaster-artist/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/371638-the-disaster-artist/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/371638-the-disaster-artist/watch?locale=US"
+      }
+    ]
+  },
+  "inmate #1: the rise of danny trejo|||": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ov36eC7vfs96s5GnDqYuM4UaLGl.jpg",
+    "Plot": "71 years in the making, this feature documentary experience reveals the extraordinary life journey of Hollywood's most unlikely hero, Danny Trejo.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/611761-inmate-1-the-rise-of-danny-trejo/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/611761-inmate-1-the-rise-of-danny-trejo/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/611761-inmate-1-the-rise-of-danny-trejo/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/611761-inmate-1-the-rise-of-danny-trejo/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/611761-inmate-1-the-rise-of-danny-trejo/watch?locale=US"
+      }
+    ]
+  },
+  "the white stripes under great white northern lights|||2010": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ddYQd5ARAA6ZpDC0WuCOIdZeO2U.jpg",
+    "Plot": "In 2007 the legendary American duo White Stripes toured Canada. Besides playing the usual venues they challenged themselves and played in buses, cafés and for Indian tribal elders. Music video director Emmett Malloy followed the band and managed to capture both the special tour, extraordinary concert versions of the band's minimalist, raw, blues-inspired rock songs and the special relationship between the extroverted Jack White and the introspective Meg White - a formerly married couple who for a long time claimed to be siblings. The film makes striking use of the band's concert colors: red, white and black.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/34767-the-white-stripes-under-great-white-northern-lights/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/34767-the-white-stripes-under-great-white-northern-lights/watch?locale=US"
+      }
+    ]
+  },
+  "so much so fast|||2006": {
+    "Poster": "https://image.tmdb.org/t/p/w500/9yOUoAzjsmczYEkasahHub5qhZT.jpg",
+    "Plot": "A man suffering from Lou Gehrig's disease deals with the woman falling for him and a brother who becomes obsessed with finding a cure.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/81543-so-much-so-fast/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/81543-so-much-so-fast/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/81543-so-much-so-fast/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/81543-so-much-so-fast/watch?locale=US"
+      }
+    ]
+  },
+  "paradise lost 3: purgatory|||": {
+    "Poster": "https://image.tmdb.org/t/p/w500/5Ix8SvMu5MllsXLtD0dvZR0vDi2.jpg",
+    "Plot": "A further investigation into the arrest of three teenagers convicted of killing three young boys in Arkansas who spent nearly 20 years in prison before being released after new DNA evidence indicated they may be innocent.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/83660-paradise-lost-3-purgatory/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/83660-paradise-lost-3-purgatory/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/83660-paradise-lost-3-purgatory/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/83660-paradise-lost-3-purgatory/watch?locale=US"
+      }
+    ]
+  },
+  "the second mother (que horas ela volta?)|||2015": {
+    "Poster": "https://image.tmdb.org/t/p/w500/u1tDQun2iJAzersd94S8P47WEOL.jpg",
+    "Plot": "After leaving her daughter Jessica in a small town in Pernambuco to be raised by relatives, Val spends the next 13 years working as a nanny to Fabinho in São Paulo. She has financial stability but has to live with the guilt of having not raised Jessica herself. As Fabinho’s university entrance exams approach, Jessica reappears in her life and seems to want to give her mother a second chance. However, Jessica has not been raised to be a servant and her very existence will turn Val’s routine on its head. With precision and humour, the subtle and powerful forces that keep rigid class structures in place and how the youth may just be the ones to shake it all up.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/310569-que-horas-ela-volta/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/310569-que-horas-ela-volta/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/310569-que-horas-ela-volta/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/310569-que-horas-ela-volta/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/310569-que-horas-ela-volta/watch?locale=US"
+      }
+    ]
+  },
+  "the gleaners and i|||2001": {
+    "Poster": "/static/placeholder.png",
+    "Plot": "",
+    "Streaming": []
+  },
+  "ai weiwei: never sorry|||2012": {
+    "Poster": "https://image.tmdb.org/t/p/w500/5bkXKjsaBYmvbCt6LLRcqsd74jG.jpg",
+    "Plot": "An account of the many tribulations that Chinese artist Ai Weiwei, known for his subversive art and political activism, endured between 2008 and 2011, from his rise to world fame via the Internet to his highly publicized arrest due to his frequent and daring confrontations with the Chinese authorities.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/tPvmybuDUn84aDps72GiMbvr2xU.jpg",
+        "url": "https://www.themoviedb.org/movie/84169-ai-weiwei-never-sorry/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/2ino0WmHA4GROB7NYKzT6PGqLcb.jpg",
+        "url": "https://www.themoviedb.org/movie/84169-ai-weiwei-never-sorry/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/84169-ai-weiwei-never-sorry/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/84169-ai-weiwei-never-sorry/watch?locale=US"
+      },
+      {
+        "name": "Philo",
+        "logo": "https://image.tmdb.org/t/p/w45/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+        "url": "https://www.themoviedb.org/movie/84169-ai-weiwei-never-sorry/watch?locale=US"
+      }
+    ]
+  },
+  "the great silence (il grande silenzio)|||1968": {
+    "Poster": "https://image.tmdb.org/t/p/w500/3kpxS7SZMyYSXvhDnmxQXOOxiTM.jpg",
+    "Plot": "A mute gunslinger fights in the defense of a group of outlaws and a vengeful young widow, against a group of ruthless bounty hunters.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/9028-il-grande-silenzio/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/9028-il-grande-silenzio/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/9028-il-grande-silenzio/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/9028-il-grande-silenzio/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+        "url": "https://www.themoviedb.org/movie/9028-il-grande-silenzio/watch?locale=US"
+      }
+    ]
+  },
+  "crip camp: a disability revolution|||": {
+    "Poster": "https://image.tmdb.org/t/p/w500/iALSypN3MhC6kBVwc9VpuJUlm1j.jpg",
+    "Plot": "Down the road from Woodstock in the early 1970s, a revolution blossomed in a ramshackle summer camp for disabled teenagers, transforming their young lives and igniting a landmark movement.",
+    "Streaming": [
+      {
+        "name": "Netflix",
+        "logo": "https://image.tmdb.org/t/p/w45/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "url": "https://www.themoviedb.org/movie/653725-crip-camp-a-disability-revolution/watch?locale=US"
+      },
+      {
+        "name": "Netflix Standard with Ads",
+        "logo": "https://image.tmdb.org/t/p/w45/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "url": "https://www.themoviedb.org/movie/653725-crip-camp-a-disability-revolution/watch?locale=US"
+      }
+    ]
+  },
+  "a night to remember|||1958": {
+    "Poster": "https://image.tmdb.org/t/p/w500/6fDhJAz6AuYWj3hAnvUL42Xlxfj.jpg",
+    "Plot": "The sinking of the Titanic is presented in a highly realistic fashion in this tense British drama. The disaster is portrayed largely from the perspective of the ocean liner's second officer, Charles Lightoller. Despite numerous warnings about ice, the ship sails on, with Capt. Edward John Smith keeping it going at a steady clip. When the doomed vessel finally hits an iceberg, the crew and passengers discover that they lack enough lifeboats, and tragedy follows.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/10971-a-night-to-remember/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/10971-a-night-to-remember/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/10971-a-night-to-remember/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/10971-a-night-to-remember/watch?locale=US"
+      }
+    ]
+  },
+  "crumb|||1995": {
+    "Poster": "https://image.tmdb.org/t/p/w500/9ocTHdBCJdwJ65Tubg3lYlfMxEY.jpg",
+    "Plot": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, ex-wife and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/26564-crumb/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/26564-crumb/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/26564-crumb/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/26564-crumb/watch?locale=US"
+      }
+    ]
+  },
+  "kung fu hustle|||2005": {
+    "Poster": "https://image.tmdb.org/t/p/w500/exbyTbrvRUDKN2mcNEuVor4VFQW.jpg",
+    "Plot": "It's the 1940s, and the notorious Axe Gang terrorizes Shanghai. Small-time criminals Sing and Bone hope to join, but they only manage to make lots of very dangerous enemies. Fortunately for them, kung fu masters and hidden strength can be found in unlikely places. Now they just have to take on the entire Axe Gang.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/9470/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/9470/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/9470/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/9470/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/9470/watch?locale=US"
+      }
+    ]
+  },
+  "buck|||2011": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ly4QYShk4kw0DtEpxWG9yz54lxJ.jpg",
+    "Plot": "An examination of the life of acclaimed 'horse whisperer' Buck Brannaman, who recovered from years of child abuse to become a well-known expert in the interactions between horses and people.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/67273-buck/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/2ino0WmHA4GROB7NYKzT6PGqLcb.jpg",
+        "url": "https://www.themoviedb.org/movie/67273-buck/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/67273-buck/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/67273-buck/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/67273-buck/watch?locale=US"
+      }
+    ]
+  },
+  "salvador|||1986": {
+    "Poster": "https://image.tmdb.org/t/p/w500/c5JgUmzN7syTFy9suwoHF3vhNsN.jpg",
+    "Plot": "In 1980, an American journalist covering the Salvadoran Civil War becomes entangled with both the leftist guerrilla groups and the right-wing military dictatorship while trying to rescue his girlfriend and her children.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/6106-salvador/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+        "url": "https://www.themoviedb.org/movie/6106-salvador/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/6106-salvador/watch?locale=US"
+      },
+      {
+        "name": "Philo",
+        "logo": "https://image.tmdb.org/t/p/w45/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+        "url": "https://www.themoviedb.org/movie/6106-salvador/watch?locale=US"
+      },
+      {
+        "name": "fuboTV",
+        "logo": "https://image.tmdb.org/t/p/w45/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+        "url": "https://www.themoviedb.org/movie/6106-salvador/watch?locale=US"
+      }
+    ]
+  },
+  "gaslight|||1944": {
+    "Poster": "https://image.tmdb.org/t/p/w500/gXKszCl5Q1KrgWRWpPcqn94CP58.jpg",
+    "Plot": "A newlywed fears she's going mad when strange things start happening at the family mansion.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/13528-gaslight/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/13528-gaslight/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/13528-gaslight/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/13528-gaslight/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/13528-gaslight/watch?locale=US"
+      }
+    ]
+  },
+  "the dirty dozen|||1967": {
+    "Poster": "https://image.tmdb.org/t/p/w500/tFWWsuhp22zJ6OG6QepJIiPUfeF.jpg",
+    "Plot": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/1654-the-dirty-dozen/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/1654-the-dirty-dozen/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/1654-the-dirty-dozen/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/1654-the-dirty-dozen/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/1654-the-dirty-dozen/watch?locale=US"
+      }
+    ]
+  },
+  "up|||2009": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+    "Plot": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/14160-up/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/14160-up/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/14160-up/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/14160-up/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/14160-up/watch?locale=US"
+      }
+    ]
+  },
+  "wall-e|||2008": {
+    "Poster": "https://image.tmdb.org/t/p/w500/y8cK4RYFQbhpP0PZpb7iXlLhGWh.jpg",
+    "Plot": "Satire branding unhealthy interest in the lives of others and gossip.",
+    "Streaming": []
+  },
+  "saving face|||2005": {
+    "Poster": "https://image.tmdb.org/t/p/w500/7XbbgkKi4nEMOu9iwiANXpjKKhe.jpg",
+    "Plot": "A Chinese-American lesbian and her traditionalist mother are reluctant to go public with secret loves that clash against cultural expectations.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/19316-saving-face/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/19316-saving-face/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/19316-saving-face/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/19316-saving-face/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/19316-saving-face/watch?locale=US"
+      }
+    ]
+  },
+  "rang de basanti (paint it yellow)|||2006": {
+    "Poster": "https://image.tmdb.org/t/p/w500/f1bF8CHzEu621bPSIg6XiUNAabh.jpg",
+    "Plot": "After a group of friends graduate from Delhi University, they listlessly haunt their old campus, until a British filmmaker casts them in a film she's making about freedom fighters under British rule. Although the group is largely apolitical, the tragic death of a friend owing to local government corruption awakens their patriotism. Inspired by the freedom fighters they represent in the film, the friends collectively decide to avenge the killing.",
+    "Streaming": []
+  },
+  "thirty two short films about glenn gould|||1993": {
+    "Poster": "https://image.tmdb.org/t/p/w500/3GTmkUpCb1uL7psLYqAHyIyld51.jpg",
+    "Plot": "A collection of vignettes highlighting different aspects of the life, work, and character of the acclaimed Canadian classical pianist.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/20967-thirty-two-short-films-about-glenn-gould/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/20967-thirty-two-short-films-about-glenn-gould/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/20967-thirty-two-short-films-about-glenn-gould/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/20967-thirty-two-short-films-about-glenn-gould/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/20967-thirty-two-short-films-about-glenn-gould/watch?locale=US"
+      }
+    ]
+  },
+  "hamlet|||": {
+    "Poster": "https://image.tmdb.org/t/p/w500/A4BgGPUAIKI9bWNOn5YzoVXcvXV.jpg",
+    "Plot": "Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",
+    "Streaming": []
+  },
+  "the decline of western civilization|||1981": {
+    "Poster": "https://image.tmdb.org/t/p/w500/36YfDJQKZfoCn5NLJ7mcrekE511.jpg",
+    "Plot": "The Los Angeles punk music scene circa 1980 is the focus of this film. With Alice Bag Band, Black Flag, Catholic Discipline, Circle Jerks, Fear, Germs, and X.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/21137-the-decline-of-western-civilization/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+        "url": "https://www.themoviedb.org/movie/21137-the-decline-of-western-civilization/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/21137-the-decline-of-western-civilization/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/21137-the-decline-of-western-civilization/watch?locale=US"
+      },
+      {
+        "name": "Philo",
+        "logo": "https://image.tmdb.org/t/p/w45/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+        "url": "https://www.themoviedb.org/movie/21137-the-decline-of-western-civilization/watch?locale=US"
+      }
+    ]
+  },
+  "first blood|||1982": {
+    "Poster": "https://image.tmdb.org/t/p/w500/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+    "Plot": "When former Green Beret John Rambo is harassed by local law enforcement and arrested for vagrancy, he is forced to flee into the mountains and wage an escalating one-man war against his pursuers.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US"
+      }
+    ]
+  },
+  "top hat|||1935": {
+    "Poster": "https://image.tmdb.org/t/p/w500/qoPBiN6PBs2NsP7BNOJGCnmwruG.jpg",
+    "Plot": "Showman Jerry Travers is working for producer Horace Hardwick in London. Jerry demonstrates his new dance steps late one night in Horace's hotel room, much to the annoyance of sleeping Dale Tremont below. She goes upstairs to complain and the two are immediately attracted to each other. Complications arise when Dale mistakes Jerry for Horace.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/3080-top-hat/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/3080-top-hat/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/3080-top-hat/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/3080-top-hat/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/3080-top-hat/watch?locale=US"
+      }
+    ]
+  },
+  "pray the devil back to hell|||2008": {
+    "Poster": "https://image.tmdb.org/t/p/w500/glh1caauBwyV57cVqV61IMNpqpb.jpg",
+    "Plot": "Pray the Devil Back to Hell chronicles the remarkable story of the Liberian women who came together to end a bloody civil war and bring peace to their shattered country.",
+    "Streaming": []
+  },
+  "iron island|||2006": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mUOyoK60x811aehBQwhSEcu0xYN.jpg",
+    "Plot": "Squatters live on a mothballed oil tanker in the Persian Gulf. The children attend a school on board; men harvest scrap metal and old oil in the hull; women keep house and raise children and Captain Nemat runs it all with an iron hand. We follow a lad who rescues fish trapped in the hull, an old man who stares at the sun, the idealistic teacher, and Ahmad, the Captain's assistant who has fallen in love with a young woman whose father wants to marry her to someone of means. What future has this sinking city?",
+    "Streaming": [
+      {
+        "name": "FilmBox Live Amazon Channel",
+        "logo": "https://image.tmdb.org/t/p/w45/xJ3B83btVmp4wyRGRRRgWCibTLI.jpg",
+        "url": "https://www.themoviedb.org/movie/43970/watch?locale=US"
+      },
+      {
+        "name": "FilmBox+",
+        "logo": "https://image.tmdb.org/t/p/w45/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+        "url": "https://www.themoviedb.org/movie/43970/watch?locale=US"
+      }
+    ]
+  },
+  "vertigo|||1958": {
+    "Poster": "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+    "Plot": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US"
+      }
+    ]
+  },
+  "jalsaghar (the music room)|||1958": {
+    "Poster": "https://image.tmdb.org/t/p/w500/21Mfk2TTrgy2rv4jeINMKRUUdhW.jpg",
+    "Plot": "An aging, decadent landlord’s passion for music becomes the undoing of his legacy as he sacrifices his wealth in order to compete with the opulent music room of his younger, richer neighbour.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/822/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/822/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/822/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/822/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/822/watch?locale=US"
+      }
+    ]
+  },
+  "la grande illusion (grand illusion)|||1938": {
+    "Poster": "https://image.tmdb.org/t/p/w500/lWg41zE0FVixkNsFgxnlRyvDYv9.jpg",
+    "Plot": "A group of French soldiers, including the patrician Captain de Boeldieu and the working-class Lieutenant Maréchal, grapple with their own class differences after being captured and held in a World War I German prison camp. When the men are transferred to a high-security fortress, they must concoct a plan to escape beneath the watchful eye of aristocratic German officer von Rauffenstein, who has formed an unexpected bond with de Boeldieu.",
+    "Streaming": []
+  },
+  "ju dou|||1990": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ejvX1lukPZZ10jatUWmKaXbhjGI.jpg",
+    "Plot": "A woman married to the brutal and infertile owner of a dye mill in rural China conceives a boy with her husband's nephew but is forced to raise her son as her husband's heir without revealing his parentage in this circular tragedy. Filmed in glowing technicolour, this tale of romantic and familial love in the face of unbreakable tradition is more universal than its setting.",
+    "Streaming": []
+  },
+  "slap shot|||1977": {
+    "Poster": "https://image.tmdb.org/t/p/w500/k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg",
+    "Plot": "To build up attendance at their games, the management of a struggling minor-league hockey team signs up the Hanson Brothers, three hard-charging players whose job is to demolish the opposition.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w45/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/11590-slap-shot/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w45/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/11590-slap-shot/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w45/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/11590-slap-shot/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w45/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/11590-slap-shot/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w45/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/11590-slap-shot/watch?locale=US"
+      }
+    ]
+  },
+  "les plages d'agnès (the beaches of agnes)|||2008": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mqTFhLpdyMNLBvmN5KFhCOFWWIp.jpg",
+    "Plot": "Filmmaking icon Agnès Varda, the award-winning director regarded by many as the grandmother of the French new wave, turns the camera on herself with this unique autobiographical documentary. Composed of film excerpts and elaborate dramatic re-creations, Varda's self-portrait recounts the highs and lows of her professional career, the many friendships that affected her life and her longtime marriage to cinematic giant Jacques Demy.",
+    "Streaming": [
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w92/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/38879-les-plages-d-agnes/watch?locale=US"
+      },
+      {
+        "name": "DocAlliance Films",
+        "logo": "https://image.tmdb.org/t/p/w92/vbXJBJVv3u3YWt6ml0l0ldDblXT.jpg",
+        "url": "https://www.themoviedb.org/movie/38879-les-plages-d-agnes/watch?locale=US"
+      }
+    ]
+  },
+  "who is harry nilsson (and why is everybody talkin' about him)?|||2010": {
+    "Poster": "https://image.tmdb.org/t/p/w500/uh3jCuKCd50EwBYPSUMG9rK9v6y.jpg",
+    "Plot": "The life and work of the enigmatic singer-songwriter Harry Nilsson.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w92/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/53079-who-is-harry-nilsson-and-why-is-everybody-talkin-about-him/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w92/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+        "url": "https://www.themoviedb.org/movie/53079-who-is-harry-nilsson-and-why-is-everybody-talkin-about-him/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w92/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/53079-who-is-harry-nilsson-and-why-is-everybody-talkin-about-him/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w92/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/53079-who-is-harry-nilsson-and-why-is-everybody-talkin-about-him/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w92/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/53079-who-is-harry-nilsson-and-why-is-everybody-talkin-about-him/watch?locale=US"
+      }
+    ]
+  },
+  "let the fire burn|||2013": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mRwz7Jyr2C8ZNuTFxeKzUZk4YRI.jpg",
+    "Plot": "Jason Osder delivers an account of the incidents leading up to and during the 1985 standoff between the extremist African-American organization MOVE and Philadelphia authorities. The dramatic clash would claim eleven lives and devastate an entire community.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w92/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/174352-let-the-fire-burn/watch?locale=US"
+      },
+      {
+        "name": "OVID",
+        "logo": "https://image.tmdb.org/t/p/w92/jxavsObOHN6UqlbuZQ1UpVRVv6X.jpg",
+        "url": "https://www.themoviedb.org/movie/174352-let-the-fire-burn/watch?locale=US"
+      }
+    ]
+  },
+  "easter parade|||1948": {
+    "Poster": "https://image.tmdb.org/t/p/w500/5e5Zqsvq9gtm1AuY5ritAumDZDv.jpg",
+    "Plot": "On the day before Easter in 1911, Don Hewes is crushed when his dancing partner (and object of affection) Nadine Hale refuses to start a new contract with him. To prove Nadine's not important to him, Don acquires innocent new protege Hannah Brown, vowing to make her a star in time for next year's Easter parade.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w92/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/29380-easter-parade/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w92/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/29380-easter-parade/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w92/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/29380-easter-parade/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w92/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/29380-easter-parade/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w92/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/29380-easter-parade/watch?locale=US"
+      }
+    ]
+  },
+  "it happened one night|||1934": {
+    "Poster": "https://image.tmdb.org/t/p/w500/2PNUGWAflH6UUumas0POMmokHlc.jpg",
+    "Plot": "A runaway heiress makes a deal with the rogue reporter trailing her but the mismatched pair end up stuck with each other when their bus leaves them behind.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w92/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/3078-it-happened-one-night/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w92/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/3078-it-happened-one-night/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w92/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/3078-it-happened-one-night/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w92/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/3078-it-happened-one-night/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w92/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/3078-it-happened-one-night/watch?locale=US"
+      }
+    ]
+  },
+  "john mulaney: the comeback kid|||": {
+    "Poster": "https://image.tmdb.org/t/p/w500/pzM9t33T2YUA7vaCb2GxaDrlTW1.jpg",
+    "Plot": "Armed with boyish charm and a sharp wit, the former \"SNL\" writer offers sly takes on marriage, his beef with babies and the time he met Bill Clinton.",
+    "Streaming": [
+      {
+        "name": "Netflix",
+        "logo": "https://image.tmdb.org/t/p/w154/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "url": "https://www.themoviedb.org/movie/367735-john-mulaney-the-comeback-kid/watch?locale=US"
+      },
+      {
+        "name": "Netflix Standard with Ads",
+        "logo": "https://image.tmdb.org/t/p/w154/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "url": "https://www.themoviedb.org/movie/367735-john-mulaney-the-comeback-kid/watch?locale=US"
+      }
+    ]
+  },
+  "three colors: white (trois couleurs: blanc)|||1994": {
+    "Poster": "https://image.tmdb.org/t/p/w500/fdIet3NSa27gobMbaUml66oCQNT.jpg",
+    "Plot": "Polish immigrant Karol Karol finds himself out of a marriage, a job and a country when his French wife, Dominique, divorces him after six months due to his impotence. Forced to leave France after losing the business they jointly owned, Karol enlists fellow Polish expatriate Mikołaj to smuggle him back to their homeland.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/109-trois-couleurs-blanc/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/109-trois-couleurs-blanc/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/109-trois-couleurs-blanc/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w154/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/109-trois-couleurs-blanc/watch?locale=US"
+      },
+      {
+        "name": "HBO Max",
+        "logo": "https://image.tmdb.org/t/p/w154/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+        "url": "https://www.themoviedb.org/movie/109-trois-couleurs-blanc/watch?locale=US"
+      }
+    ]
+  },
+  "sling blade|||1996": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ivBIBd1LNaozcmytZUyE1yIXZms.jpg",
+    "Plot": "Karl Childers, a mentally disabled man, has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, he is deemed fit to be released into the outside world.",
+    "Streaming": []
+  },
+  "the last picture show|||1971": {
+    "Poster": "https://image.tmdb.org/t/p/w500/7NYePZc0lZrRomtmQsjOJMePTEb.jpg",
+    "Plot": "High school seniors and best friends, Sonny and Duane, live in a dying Texas town. The handsome Duane is dating a local beauty, while Sonny is having an affair with the coach's wife. As graduation nears and both boys contemplate their futures, Duane eyes the army and Sonny takes over a local business. Each struggles to figure out if he can escape this dead-end town and build a better life somewhere else.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/25188-the-last-picture-show/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/25188-the-last-picture-show/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/25188-the-last-picture-show/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/25188-the-last-picture-show/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/25188-the-last-picture-show/watch?locale=US"
+      }
+    ]
+  },
+  "rivers and tides|||2002": {
+    "Poster": "/static/placeholder.png",
+    "Plot": "",
+    "Streaming": []
+  },
+  "man with a movie camera|||1929": {
+    "Poster": "https://image.tmdb.org/t/p/w500/vJgAdgJWX54v0oXfIvhwjlZnmgn.jpg",
+    "Plot": "A cameraman wanders around with a camera slung over his shoulder, documenting urban life with dazzling inventiveness.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/26317/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/26317/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/26317/watch?locale=US"
+      },
+      {
+        "name": "GuideDoc",
+        "logo": "https://image.tmdb.org/t/p/w154/eKVmLFHW5PeNhuR7Nedd8OIxW2M.jpg",
+        "url": "https://www.themoviedb.org/movie/26317/watch?locale=US"
+      }
+    ]
+  },
+  "saturday night and sunday morning|||1961": {
+    "Poster": "https://image.tmdb.org/t/p/w500/fHHKxB71EzVzny3ZakxZRGe5Evw.jpg",
+    "Plot": "A 22-year-old factory worker lets loose on the weekends: drinking, brawling, and dating two women, one of whom is older and married.",
+    "Streaming": [
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+        "url": "https://www.themoviedb.org/movie/37230-saturday-night-and-sunday-morning/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w154/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/37230-saturday-night-and-sunday-morning/watch?locale=US"
+      }
+    ]
+  },
+  "playtime|||1973": {
+    "Poster": "https://image.tmdb.org/t/p/w500/oUXEJLgDfAFR6TvJU6dMerEpcBK.jpg",
+    "Plot": "Clumsy Monsieur Hulot finds himself perplexed by the intimidating complexity of a gadget-filled Paris. He attempts to meet with a business contact but soon becomes lost. His roundabout journey parallels that of an American tourist, and as they weave through the inventive urban environment, they intermittently meet, developing an interest in one another. They eventually get together at a chaotic restaurant, along with several other quirky characters.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w154/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/10227-playtime/watch?locale=US"
+      }
+    ]
+  },
+  "baran|||2002": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mcsAug8npYWQ21W0Adv5ghpJuSk.jpg",
+    "Plot": "On a building site in present-day Tehran, Lateef, a 17-year-old Turkish worker is irresistibly drawn to Rahmat, a young Afghan worker. The revelation of Rahmat's secret changes both their lives.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/43774/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/43774/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/43774/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/43774/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/43774/watch?locale=US"
+      }
+    ]
+  },
+  "nostalgia (nostalghia)|||1984": {
+    "Poster": "https://image.tmdb.org/t/p/w500/fCYSidPXp3LpDa9wlLNv0gZvjyF.jpg",
+    "Plot": "A Russian poet, Andrei and his interpreter, Eugenia travel to Italy to research the life of an 18th-century composer.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/1394/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/1394/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/1394/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/1394/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/1394/watch?locale=US"
+      }
+    ]
+  },
+  "inside out|||2015": {
+    "Poster": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+    "Plot": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/150540-inside-out/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/150540-inside-out/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/150540-inside-out/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/150540-inside-out/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/150540-inside-out/watch?locale=US"
+      }
+    ]
+  },
+  "vengeance is mine|||1979": {
+    "Poster": "https://image.tmdb.org/t/p/w500/7mzlay0miUkplT0EsKdR8znOVpe.jpg",
+    "Plot": "A thief, a murderer, and a charming lady-killer, Iwao Enokizu is on the run from the police.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/42170/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/42170/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/42170/watch?locale=US"
+      },
+      {
+        "name": "Criterion Channel",
+        "logo": "https://image.tmdb.org/t/p/w154/yhrtzYd43pFIhRq0ruO8umJPuyn.jpg",
+        "url": "https://www.themoviedb.org/movie/42170/watch?locale=US"
+      }
+    ]
+  },
+  "call me by your name|||2018": {
+    "Poster": "https://image.tmdb.org/t/p/w500/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg",
+    "Plot": "In the summer of 1983, a 17-year-old Elio spends his days in his family's villa in Italy. One day Oliver, a graduate student, arrives to assist Elio's father, a professor of Greco-Roman culture. Soon, Elio and Oliver discover a summer that will alter their lives forever.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US"
+      }
+    ]
+  },
+  "open city|||1946": {
+    "Poster": "https://image.tmdb.org/t/p/w500/ijGV4v8JxgbNzgEhqKdzHdaZn8a.jpg",
+    "Plot": "In WWII-era Rome, underground resistance leader Manfredi attempts to evade the Gestapo by enlisting the help of Pina, the fiancée of a fellow member of the resistance, and Don Pietro, the priest due to oversee her marriage. But it’s not long before the Nazis and the local police find him.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/307-roma-citta-aperta/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/307-roma-citta-aperta/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/307-roma-citta-aperta/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/307-roma-citta-aperta/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/307-roma-citta-aperta/watch?locale=US"
+      }
+    ]
+  },
+  "maiden|||2019": {
+    "Poster": "https://image.tmdb.org/t/p/w500/19rEZWy1c8vv9ZALuMr0DNXMvF6.jpg",
+    "Plot": "In a moving portrait of resilience, Alex Holmes chronicles the unprecedented journey of 24-year-old Tracy Edwards and the first all-female sailing crew to enter the Whitbread Round the World Race.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/w154/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/543093-maiden/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/w154/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/543093-maiden/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/w154/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/543093-maiden/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/w154/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/543093-maiden/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/w154/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/543093-maiden/watch?locale=US"
+      }
+    ]
+  },
+  "stage door|||1937": {
+    "Poster": "https://image.tmdb.org/t/p/w500/p4zqAKoJAtmkK71IyeWHc6spEKB.jpg",
+    "Plot": "The ups and downs in the lives and careers of a group of ambitious young actresses and show girls from disparate backgrounds brought together in a theatrical hostel.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/43864-stage-door/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/43864-stage-door/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/43864-stage-door/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/43864-stage-door/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+        "url": "https://www.themoviedb.org/movie/43864-stage-door/watch?locale=US"
+      }
+    ]
+  },
+  "fagara|||2019": {
+    "Poster": "/static/posters/fagara_2019.jpg",
+    "Plot": "After her father died, a Hong Kong girl discovers she has two hitherto unknown sisters, one in Taiwan and one in China. To settle her father's debt, she must reunite with them to run the family's hot pot restaurant.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/620210-fagara/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/620210-fagara/watch?locale=US"
+      },
+      {
+        "name": "OVID",
+        "logo": "https://image.tmdb.org/t/p/original/jxavsObOHN6UqlbuZQ1UpVRVv6X.jpg",
+        "url": "https://www.themoviedb.org/movie/620210-fagara/watch?locale=US"
+      },
+      {
+        "name": "Rakuten Viki",
+        "logo": "https://image.tmdb.org/t/p/original/5L2bwr9DhUg28oSMEPRCNwB2y7B.jpg",
+        "url": "https://www.themoviedb.org/movie/620210-fagara/watch?locale=US"
+      }
+    ]
+  },
+  "mrs. miniver|||1942": {
+    "Poster": "https://image.tmdb.org/t/p/w500/fjPjx6FTaoTussbqoLj6OYTtUyi.jpg",
+    "Plot": "Middle-class housewife Kay Miniver deals with petty problems. She and her husband Clem watch her Oxford-educated son Vin court Carol Beldon, the charming granddaughter of the local nobility as represented by Lady Beldon. Then the war comes and Vin joins the RAF.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/27367-mrs-miniver/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/27367-mrs-miniver/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/27367-mrs-miniver/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/27367-mrs-miniver/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/27367-mrs-miniver/watch?locale=US"
+      }
+    ]
+  },
+  "cunningham|||2019": {
+    "Poster": "https://image.tmdb.org/t/p/w500/9nP5hdTU5f0YjziZ4QU0b796ntc.jpg",
+    "Plot": "The iconic Merce Cunningham and the last generation of his dance company is profiled in Alla Kovgan's 3D documentary, through recreations of his landmark works and archival footage of Cunningham, John Cage, Robert Rauschenberg, and more.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/621754-cunningham/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/621754-cunningham/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/621754-cunningham/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/621754-cunningham/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/621754-cunningham/watch?locale=US"
+      }
+    ]
+  },
+  "the enemy below|||1957": {
+    "Poster": "https://image.tmdb.org/t/p/w500/9IUUCfrEEkq92sCLznzSAjDPusk.jpg",
+    "Plot": "The crew of the American destroyer escort, the USS Haynes, detects a German U-Boat—resulting in a prolonged, deadly battle of wits.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/15876-the-enemy-below/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/15876-the-enemy-below/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/15876-the-enemy-below/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/15876-the-enemy-below/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/15876-the-enemy-below/watch?locale=US"
+      }
+    ]
+  },
+  "argo|||2012": {
+    "Poster": "https://image.tmdb.org/t/p/w500/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+    "Plot": "As the Iranian revolution reaches a boiling point, a CIA 'exfiltration' specialist concocts a risky plan to free six Americans who have found shelter at the home of the Canadian ambassador.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/68734-argo/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/68734-argo/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/68734-argo/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/68734-argo/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/68734-argo/watch?locale=US"
+      }
+    ]
+  },
+  "three billboards outside ebbing, missouri|||2017": {
+    "Poster": "https://image.tmdb.org/t/p/w500/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg",
+    "Plot": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US"
+      }
+    ]
+  },
+  "the times of harvey milk|||1984": {
+    "Poster": "https://image.tmdb.org/t/p/w500/icHnX0RALT9Mn8CVhtqBl04jqXi.jpg",
+    "Plot": "Harvey Milk was an outspoken human rights activist and one of the first openly gay U.S. politicians elected to public office; even after his assassination in 1978, he continues to inspire disenfranchised people around the world.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/33138-the-times-of-harvey-milk/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/5AkEgpCNaBP3Fbwd2m1GdQIk0vv.jpg",
+        "url": "https://www.themoviedb.org/movie/33138-the-times-of-harvey-milk/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/33138-the-times-of-harvey-milk/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/33138-the-times-of-harvey-milk/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/33138-the-times-of-harvey-milk/watch?locale=US"
+      }
+    ]
+  },
+  "dark waters|||2019": {
+    "Poster": "https://image.tmdb.org/t/p/w500/bzvzaHqKBSuGIIWhinTQPHvT0zf.jpg",
+    "Plot": "A tenacious attorney uncovers a dark secret that connects a growing number of unexplained deaths to one of the world's largest corporations. In the process, he risks everything — his future, his family, and his own life — to expose the truth.",
+    "Streaming": [
+      {
+        "name": "Apple TV",
+        "logo": "https://image.tmdb.org/t/p/original/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+        "url": "https://www.themoviedb.org/movie/552178-dark-waters/watch?locale=US"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://image.tmdb.org/t/p/original/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+        "url": "https://www.themoviedb.org/movie/552178-dark-waters/watch?locale=US"
+      },
+      {
+        "name": "Fandango At Home",
+        "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+        "url": "https://www.themoviedb.org/movie/552178-dark-waters/watch?locale=US"
+      },
+      {
+        "name": "Google Play Movies",
+        "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+        "url": "https://www.themoviedb.org/movie/552178-dark-waters/watch?locale=US"
+      },
+      {
+        "name": "YouTube",
+        "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+        "url": "https://www.themoviedb.org/movie/552178-dark-waters/watch?locale=US"
+      }
+    ]
   }
 }
